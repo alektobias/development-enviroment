@@ -1,0 +1,46 @@
+
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.highlightModifiedTabs": true,
+    "extensions.autoCheckUpdates": true,
+    "extensions.autoUpdate": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.rulers": [80, 120],
+    "editor.formatOnSave": false,
+    "editor.parameterHints.enabled": false,
+    "editor.tabSize": 2,
+    "eslint.validate": ["javascript","javascriptreact","typescript","typescriptreact"],
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "editor.renderLineHighlight": "gutter",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontSize": 14,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "files.autoSaveDelay": 100,
+    "git.autofetch": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "explorer.confirmDragAndDrop": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "git.enableSmartCommit": true,
+    "sync.autoUpload": true,
+    "sync.forceUpload": true,
+    "sync.quietSync": true,
+    "sync.gist": "vs-settings"
+}
